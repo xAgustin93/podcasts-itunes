@@ -1,0 +1,32 @@
+.home-screen {
+  &__search {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+
+    > span {
+      margin-right: 10px;
+      background-color: #407ab0;
+      font-weight: bold;
+      color: #fff;
+      border-radius: 5px;
+      padding: 1px 3px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__podcasts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    > div {
+      width: calc(25% - 20px);
+      padding: 40px 10px;
+    }
+  }
+}
